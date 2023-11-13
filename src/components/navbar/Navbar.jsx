@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-row">
           <a href="./index.html" className="logo">
-            <strong>Freelancer</strong> portfolio
+            Portfolio
           </a>
 
           <button className="dark-mode-btn">
