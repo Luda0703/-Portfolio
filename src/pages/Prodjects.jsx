@@ -7,9 +7,9 @@ const Projects = () => {
         <div className="container">
             <h2 className="title-1">Projects</h2>
             <ul className="projects">
-                {projects.map(({title, skills, img, gitHubLink} , index) => {
+                {projects.map(({title, img} , index) => {
                     return(
-                        <Project key={index} title={title} skills={skills} img={img} gitHubLink={gitHubLink}/>
+                        <Project key={index} title={title} img={img} index={index}/>
                     )
                 })}
             </ul>
