@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 function getStorageValue(key, defaultValue) {
-try {
+  try {
     const saved = localStorage.getItem(key);
     const initial = JSON.parse(saved);
     return initial || defaultValue;
@@ -18,10 +18,10 @@ export const useLocalStorage = (key, defaultValue) => {
 
   useEffect(() => {
     try {
-        localStorage.setItem(key, JSON.stringify(value));
-      } catch (error) {
-        console.error('Error storing in localStorage:', error);
-      }
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch (error) {
+      console.error('Error storing in localStorage:', error);
+    }
   }, [key, value]);
 
   return [value, setValue];

@@ -11,17 +11,17 @@ const Footer = () => {
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <a href="#!">
+              <a target='_blank' rel="noreferrer" href="https://instagram.com/liudmilanikitenko4730?igshid=MWQ5OXltMDNmb3hucQ==">
                 <img src={instagram} alt="Link" />
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a target='_blank' rel="noreferrer" href="https://github.com/Luda0703">
                 <img src={gitHub} alt="Link" />
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/ludmilanikitenko/">
                 <img src={linkedin} alt="Link" />
               </a>
             </li>
