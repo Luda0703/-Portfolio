@@ -32,7 +32,7 @@ export const projects = [
   },
   {
     title: 'Snake Game',
-    skills: 'html, css, js, react, node.js, postgreSQL',
+    skills: 'html, css, js, typeScript, react, node.js, postgreSQL',
     img: project_05,
     gitHubLink: 'https://luda0703.github.io/Snake/',
   },
