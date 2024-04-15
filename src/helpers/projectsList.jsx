@@ -5,6 +5,10 @@ import project_04 from './../img/projects/04.jpg';
 import project_05 from './../img/projects/05.jpg';
 import project_06 from './../img/projects/06.jpg';
 import project_07 from './../img/projects/07.jpg';
+import project_08 from './../img/projects/08.jpg';
+import project_09 from './../img/projects/09.jpg';
+import project_10 from './../img/projects/10.jpg';
+import project_11 from './../img/projects/11.jpg';
 
 export const projects = [
   {
@@ -48,5 +52,29 @@ export const projects = [
     skills: 'css, js, react',
     img: project_07,
     gitHubLink: 'https://luda0703.github.io/goit-react-hw-05-movies/',
+  },
+  {
+    title: 'Tea Luxe',
+    skills: 'html, css, js',
+    img: project_08,
+    gitHubLink: 'https://luda0703.github.io/tea_luxe/',
+  },
+  {
+    title: 'Oculus',
+    skills: 'html, css, js, swiper',
+    img: project_09,
+    gitHubLink: 'https://luda0703.github.io/oculus_grid/',
+  },
+  {
+    title: 'Dior',
+    skills: 'html, css, js, swiper',
+    img: project_10,
+    gitHubLink: 'https://luda0703.github.io/Dior/',
+  },
+  {
+    title: 'Dashboard',
+    skills: 'css, next.js',
+    img: project_11,
+    gitHubLink: 'https://next-js-flame-nu.vercel.app/dashboard',
   },
 ];
